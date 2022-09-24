@@ -1,0 +1,60 @@
+/* home page css */
+.home_main{
+    margin: 20px auto;
+    text-align: left;
+}
+.home_main>h4{
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: 5px;
+    font-size: 20px;
+    color: #000;
+    margin:20px 0px;
+}
+/* Product Page */
+
+.container{
+    text-align: left;
+    margin-top: 20px;
+}
+.img{
+   border: 2px solid whitesmoke;
+   padding: 10px;
+}
+.flash{
+    display: flex;
+    background: #f30240;
+    color: white;
+    margin: 10px 0px;
+}
+.flash>h2{
+    font-style: italic;
+    padding: 10px;
+   
+}
+/* Super Deal page */
+
+.superdealmain{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.itemsgrid{
+     display: grid;
+     grid-template-columns: repeat(5,1fr);
+     grid-template-rows: repeat(auto);
+     gap:20px
+}
+ /* footer css  */
+
+.footerLinks_col{
+    font-size: 13px;
+    cursor: pointer;
+    text-align: left;
+    padding: 20px;
+}
+.footer_heading{
+    font-size: 15px;
+    cursor: none;
+}
+
