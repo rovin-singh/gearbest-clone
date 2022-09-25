@@ -13,7 +13,7 @@ const Products = () => {
 	const param = useParams();
 	const getData = () => {
 		getproduct(param.product_id)
-      .then((res) => {
+			.then((res) => {
 				setProduct(res.data[0]);
 			})
 			.catch((err) => {
@@ -25,7 +25,7 @@ const Products = () => {
 	}, []);
 	const addTocart = (item) => {
 		dispatch(addingInCart(item));
-  };
+	};
 	return (
 		<Container className={styles.container}>
 			<Row>
